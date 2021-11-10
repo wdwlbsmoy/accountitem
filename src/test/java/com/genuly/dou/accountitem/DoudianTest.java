@@ -27,8 +27,8 @@ public class DoudianTest {
     @Test
     public void get_access_token() throws Exception {
         //String method, long timestamp, String paramJson
-        String appkey = "7025541976892114463";
-        String appSecret = "8e25f920-00f1-4d43-adbe-21384fa94522";
+        String appkey = "";
+        String appSecret = "";
         String method = "token.create";
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String date = df.format(new Date());
